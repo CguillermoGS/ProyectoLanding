@@ -1,0 +1,180 @@
+header{
+    display: flex;
+    flex: row;
+   
+    width: auto;
+    height: auto;
+    padding: 0px 30px;
+    gap: 20px;
+    background: #FFFFFF;
+   
+
+}
+.imgcontainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:  0px 10px;
+    gap: 10px;
+    width: 266px;
+    height: 180px;
+}
+
+.imglogo{
+box-sizing: border-box;
+justify-content: center;    
+margin: 20px 0px;   
+position: absolute;
+width: 180px;
+height: 180px;
+border-radius: 3000px;
+}
+
+.containerbotones{
+   
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 20px;
+    gap: 20px;
+    width: 90%;
+    height: 180px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.boton1{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    /* Auto layout */
+    font-style: italic;
+    color: #0e724e;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 60px;
+ 
+    display: inside;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    
+    width: 116px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.boton2{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    /* Auto layout */
+    font-style: italic;
+    color: #0e724e;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 60px;
+ 
+    display: inside;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    
+    width: 306px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.boton3{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    /* Auto layout */
+    font-style: italic;
+    color: #0e724e;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 60px;
+ 
+    display: inside;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    
+    width: 342px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.boton4{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    /* Auto layout */
+    font-style: italic;
+    color: #0e724e;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 60px;
+ 
+    display: inside;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    
+    width: 256px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
