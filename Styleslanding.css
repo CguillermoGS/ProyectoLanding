@@ -909,4 +909,87 @@ flex-grow: 0;
 
 }
 
+footer{
+    
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 
+    gap: 40px;
+    
+    position: absolute;
+    width: 1440px;
+    height: 313px;
+    left: 0px;
+    top: 1694px;
+}
+
+    
+ 
+
+    .containermedia{
+  
+        display: flex;
+       
+        align-items: flex-start;
+        box-sizing: border-box;
+        
+        width: 315px;
+        height: 204px;
+        
+        background-image: url(Elige.png);
+        
+        border-radius: 15px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .containerdatos{
+        
+        display: flex;
+       
+        align-items: flex-start;
+        box-sizing: border-box;
+        
+        width: 315px;
+        height: 204px;
+        
+       
+        
+        border-radius: 15px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+
+    }
+
+    .Telefono{
+      width: 394px;
+      height: 241px;
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 450;
+      font-size: 25px;
+      line-height: 62px;
+
+     color: #0E724E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ 
+
+    }
